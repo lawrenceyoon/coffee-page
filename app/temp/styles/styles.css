@@ -1,4 +1,4 @@
-/* Outside NPM sources */
+/* ----- Outside NPM sources ----- */
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -269,7 +269,7 @@ template {
 [hidden] {
   display: none;
 }
-/* main files */
+/* ----- Main Files ----- */
 * {
   margin: 0;
   padding: 0;
@@ -283,11 +283,98 @@ html, body {
   font-weight: 300;
   font-size: 20px;
 }
+/* Images */
 img {
   max-width: 100%;
   height: auto;
 }
-/* sub css files */
-.large-hero {
-  border: 1px solid red;
+/* Buttons */
+.btn:link,
+.btn:visited {
+  padding: 0.3rem 0.6rem;
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: #5c4e2d;
+  border: 1px solid #5c4e2d;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 9px;
+  transition: all 0.2s;
 }
+@media (min-width: 530px) {
+.btn:link,
+.btn:visited {
+    padding: 0.5rem 0.8rem
+}
+  }
+@media (min-width: 800px) {
+.btn:link,
+.btn:visited {
+    padding: 0.7rem 1rem
+}
+  }
+.btn:hover,
+.btn:active {
+  color: #e1efe9;
+  border: 1px solid #e1efe9;
+}
+/* ----- Different CSS Sections ----- */
+.large-hero {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url(../../assets/images/coffee.jpg) no-repeat 50% 50%;
+  top: 0;
+  display: table;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.large-hero .image-box {
+    display: table-cell;
+      vertical-align: middle;
+      width: 100%;
+      max-width: none;
+  }
+.large-hero .textbox {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+.large-hero h1 {
+    color: #e1efe9;
+    font-weight: 100;
+    font-size: 250%;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
+    margin: 0;
+  }
+@media (min-width: 530px) {
+.large-hero h1 {
+      font-size: 350%
+  }
+  }
+@media (min-width: 800px) {
+.large-hero h1 {
+      font-size: 450%
+  }
+  }
+.large-hero h2 {
+    margin-top: 8px;
+    margin-bottom: 15px;
+    font-size: 110%;
+    font-weight: 100;
+    color: #e1efe9;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
+  }
+@media (min-width: 530px) {
+.large-hero h2 {
+      font-size: 150%
+  }
+  }
+@media (min-width: 800px) {
+.large-hero h2 {
+      font-size: 200%;
+      margin-top: 15px;
+      margin-bottom: 20px
+  }
+  }
