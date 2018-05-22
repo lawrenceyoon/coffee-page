@@ -1,0 +1,19 @@
+.btn:link,
+.btn:visited {
+  padding: 0.3rem 0.6rem;
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: $mainBrown;
+  border: 1px solid $mainBrown;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 9px;
+  transition: all 0.2s;
+}
+
+.btn:hover,
+.btn:active {
+  color: $mainWhite;
+  border: 1px solid $mainWhite;
+}

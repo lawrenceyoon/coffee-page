@@ -7,5 +7,11 @@
 @import "base/mixins";
 
 /* ----- Different CSS Sections ----- */
+/* Reusable content */
+@import "/modules/page-section";
+@import "/modules/wrapper";
+@import "/modules/btn";
+
+/* CSS sections */
 @import "/modules/large-hero";
 @import "/modules/about";
