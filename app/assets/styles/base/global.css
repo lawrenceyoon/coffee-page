@@ -13,6 +13,10 @@ html, body {
   font-size: 20px;
 }
 
+section {
+  border: 1px solid red;
+}
+
 /* Images */
 img {
   max-width: 100%;
@@ -32,14 +36,6 @@ img {
   text-decoration: none;
   border-radius: 9px;
   transition: all 0.2s;
-
-  @mixin atSmall {
-    padding: 0.5rem 0.8rem;
-  }
-
-  @mixin atMedium {
-    padding: 0.7rem 1rem;
-  }
 }
 
 .btn:hover,

@@ -55,4 +55,16 @@
       margin-bottom: 20px;
     }
   }
+
+  & .btn:link,
+  & .btn:visited {
+    
+    @mixin atSmall {
+      padding: 0.5rem 0.8rem;
+    }
+
+    @mixin atMedium {
+      padding: 0.7rem 1rem;
+    }
+  }
 }

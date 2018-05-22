@@ -283,6 +283,9 @@ html, body {
   font-weight: 300;
   font-size: 20px;
 }
+section {
+  border: 1px solid red;
+}
 /* Images */
 img {
   max-width: 100%;
@@ -302,18 +305,6 @@ img {
   border-radius: 9px;
   transition: all 0.2s;
 }
-@media (min-width: 530px) {
-.btn:link,
-.btn:visited {
-    padding: 0.5rem 0.8rem
-}
-  }
-@media (min-width: 800px) {
-.btn:link,
-.btn:visited {
-    padding: 0.7rem 1rem
-}
-  }
 .btn:hover,
 .btn:active {
   color: #e1efe9;
@@ -378,3 +369,18 @@ img {
       margin-bottom: 20px
   }
   }
+@media (min-width: 530px) {
+.large-hero .btn:link,
+  .large-hero .btn:visited {
+      padding: 0.5rem 0.8rem
+  }
+  }
+@media (min-width: 800px) {
+.large-hero .btn:link,
+  .large-hero .btn:visited {
+      padding: 0.7rem 1rem
+  }
+  }
+.about {
+  border: 1px solid purple;
+}
