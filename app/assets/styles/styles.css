@@ -1,9 +1,10 @@
-/* Outside NPM sources */
+/* ----- Outside NPM sources ----- */
 @import "normalize.css";
 
-/* main files */
+/* ----- Main Files ----- */
 @import "base/variables";
 @import "base/global";
+@import "base/mixins";
 
-/* sub css files */
+/* ----- Different CSS Sections ----- */
 @import "/modules/large-hero";
