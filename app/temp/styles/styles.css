@@ -455,3 +455,49 @@ img {
       line-height: 1.4
   }
   }
+.images::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.images ul {
+    list-style: none;
+    width: 100%;
+  }
+.images li {
+    display: block;
+    float: left;
+    width: 50%;
+  }
+@media (min-width: 800px) {
+.images li {
+      width: 25%
+  }
+  }
+.images figure {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+  }
+.images img {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+@media (min-width: 800px) {
+.images img {
+      opacity: 0.7;
+      -webkit-transform: scale(1.15);
+              transform: scale(1.15);
+      transition: opacity 0.5s, -webkit-transform 0.5s;
+      transition: transform 0.5s, opacity 0.5s;
+      transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s
+  }
+  }
+@media (min-width: 800px) {
+.images img:hover {
+      opacity: 1;
+      -webkit-transform: scale(1.03);
+              transform: scale(1.03)
+  }
+  }
