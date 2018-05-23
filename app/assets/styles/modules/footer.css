@@ -1,0 +1,14 @@
+.footer {
+  background-color: $tan;
+  padding: 1.25rem 0;
+  text-align: center;
+
+  & .textbox {
+    font-size: 0.75rem;
+    letter-spacing: 0.3px;
+
+    @mixin atSmall {
+      font-size: 1rem;
+    }
+  }
+}

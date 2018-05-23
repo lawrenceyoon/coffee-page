@@ -715,3 +715,17 @@ img {
       line-height: 1.2
   }
   }
+.footer {
+  background-color: #D2B48C;
+  padding: 1.25rem 0;
+  text-align: center;
+}
+.footer .textbox {
+    font-size: 0.75rem;
+    letter-spacing: 0.3px;
+  }
+@media (min-width: 530px) {
+.footer .textbox {
+      font-size: 1rem
+  }
+  }
