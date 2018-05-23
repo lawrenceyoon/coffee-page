@@ -1,0 +1,23 @@
+.row {
+
+  @mixin clearfix;
+
+  @mixin atMedium {
+    & .first-span-1-of-2 {
+      float: left;
+      width: 50%;
+      padding-right: 18px;
+    }
+
+    & .second-span-1-of-2 {
+      float: left;
+      width: 50%;
+      padding-left: 18px;
+    }
+
+    & .span-1-of-3 {
+      float: left;
+      width: 33.33%;
+    }
+  }
+}

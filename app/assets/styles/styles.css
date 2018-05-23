@@ -10,9 +10,11 @@
 /* Reusable content */
 @import "/modules/page-section";
 @import "/modules/wrapper";
+@import "/modules/row";
 @import "/modules/btn";
 
 /* CSS sections */
 @import "/modules/large-hero";
 @import "/modules/about";
 @import "/modules/images";
+@import "/modules/info";
