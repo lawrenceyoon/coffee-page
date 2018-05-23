@@ -1,0 +1,77 @@
+.testimonials {
+
+  @mixin atLarge {
+    background: url(/assets/images/coffeebg.jpg) top center no-repeat;
+    background-size: cover;
+  }
+
+  & .headline {
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 0.6em;
+
+    @mixin atSmall {
+      font-size: 2rem;
+    }
+
+    @mixin atMedium {
+      font-size: 2.8rem;
+      margin-bottom: 1.2em;
+    }
+  }
+
+  & .icons {
+    margin-right: 5px;
+  }
+
+  & .testimonial-box {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 0 1.8125rem 1px 1.8125rem;
+  }
+
+  & .photo {
+    border-radius: 80px;
+    overflow: hidden;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto -80px auto;
+    position: relative;
+    top: -80px;
+    border: 6px solid rgba(255, 255, 255, 0.6);
+  }
+
+  & .title {
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: center;
+
+    @mixin atSmall {
+      font-size: 1.2rem;
+    }
+  }
+
+  & .subtitle {
+    text-align: center;
+    color: $tan;
+    font-size: 0.95rem;
+    font-weight: 400;
+    margin: 0.25rem 0 1rem 0;
+  }
+
+  & .textbox {
+    font-size: 0.75rem;
+    line-height: 1.26;
+    letter-spacing: 0.3px;
+    margin-bottom: 1em;
+
+    @mixin atSmall {
+      font-size: 1rem;
+      letter-spacing: 0.4px;
+    }
+
+    @mixin atMedium {
+      line-height: 1.2;
+    }
+  }
+}

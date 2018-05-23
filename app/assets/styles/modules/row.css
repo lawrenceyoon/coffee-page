@@ -14,10 +14,26 @@
       width: 50%;
       padding-left: 18px;
     }
+  }
 
-    & .span-1-of-3 {
+  @mixin atLarge {
+    & .first-span-1-of-3 {
       float: left;
       width: 33.33%;
+      padding-right: 35px;
+    }
+
+    & .second-span-1-of-3 {
+      float: left;
+      width: 33.33%;
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+
+    & .third-span-1-of-3 {
+      float: left;
+      width: 33.33%;
+      padding-left: 35px;
     }
   }
 }
