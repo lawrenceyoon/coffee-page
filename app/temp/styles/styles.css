@@ -597,11 +597,32 @@ img {
       line-height: 1.4
   }
   }
+.testimonials {
+  background-color: #ffebcd;
+}
 @media (min-width: 1020px) {
 .testimonials {
     background: url(/assets/images/coffeebg.jpg) top center no-repeat;
     background-size: cover
 }
+  }
+.testimonials .page-section {
+    padding-bottom: 0;
+  }
+@media (min-width: 800px) {
+.testimonials .page-section {
+      padding-bottom: 4.5rem
+  }
+  }
+.testimonials .wrapper {
+    padding-left: 0;
+    padding-right: 0;
+  }
+@media (min-width: 800px) {
+.testimonials .wrapper {
+      padding-left: 18px;
+      padding-right: 18px
+  }
   }
 .testimonials .headline {
     font-size: 1.2rem;
@@ -623,9 +644,32 @@ img {
 .testimonials .icons {
     margin-right: 5px;
   }
+.testimonials .row {
+    padding-top: 80px;
+  }
+@media (min-width: 1020px) {
+.testimonials .row {
+      display: flex
+  }
+
+      .testimonials .row > div {
+        float: none;
+        display: flex;
+      }
+  }
 .testimonials .testimonial-box {
     background-color: rgba(255, 255, 255, 0.6);
-    padding: 0 1.8125rem 1px 1.8125rem;
+    padding: 0 18px 1px 18px;
+    margin-bottom: 98px;
+  }
+@media (min-width: 1020px) {
+.testimonials .testimonial-box {
+      padding: 0 1.8125rem 1px 1.8125rem;
+      margin-bottom: 0
+  }
+  }
+.testimonials .last-box {
+    margin-bottom: 0;
   }
 .testimonials .photo {
     border-radius: 80px;
