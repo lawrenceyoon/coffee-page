@@ -14,6 +14,7 @@
 @import "/modules/btn";
 
 /* CSS sections */
+@import "/modules/header";
 @import "/modules/large-hero";
 @import "/modules/about";
 @import "/modules/images";

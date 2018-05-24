@@ -1,0 +1,64 @@
+.header {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  min-height: 50px;
+
+  @mixin atMedium {
+    background-color: rgba($tan, .3);
+  }
+
+  & .navbar-brand {
+    float: left;
+    margin-top: 14px;
+
+    & a:link,
+    & a:visited {
+      text-decoration: none;
+      color: $mainWhite;
+    }
+
+    & i {
+      margin-left: 5px;
+    }
+  }
+
+  & .menu-icon {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    @mixin atMedium {
+      display: none;
+    }
+  }
+
+  & .menu-content {
+    display: none;
+
+    @mixin atMedium {
+      display: block;
+    }
+  }
+
+  & ul {
+    float: right;
+    list-style: none;
+    font-weight: 300;
+    margin-top: 14px;
+  }
+
+  & li {
+    display: inline-block;
+    margin-left: 40px;
+  }
+
+  & li a:link,
+  & li a:visited {
+    text-decoration: none;
+    color: $mainWhite;
+  }
+}
