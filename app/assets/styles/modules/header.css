@@ -10,7 +10,12 @@
   }
 
   @mixin atMedium {
+    position: fixed;
     background-color: rgba($tan, .3);
+
+    &-dark {
+      background-color: rgba($mainBrown, .7);
+    }
   }
 
   & .navbar-brand {
