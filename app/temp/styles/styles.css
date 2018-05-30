@@ -539,6 +539,10 @@ img {
       background-color: transparent;
       margin-bottom: 0
   }
+
+      .header li a:link.is-current-link, .header li a:visited.is-current-link {
+        color: #D2B48C;
+      }
   }
 .large-hero {
   width: 100%;
