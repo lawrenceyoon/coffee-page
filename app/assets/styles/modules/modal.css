@@ -1,0 +1,97 @@
+.modal {
+  position: fixed;
+  z-index: 5;
+  background-color: rgba(255, 255, 255, .94);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  visibility: hidden;
+
+  & .inner {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  & .page-section {
+
+    @mixin atMedium {
+      padding-top: 0;
+      padding-bottom: 2.4rem;
+    }
+  }
+
+  & .headline {
+    color: $mainBrown;
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 1.3rem;
+
+    @mixin atSmall {
+      font-size: 2rem;
+    }
+
+    @mixin atMedium {
+      font-size: 2.8rem;
+    }
+  }
+
+  & .icons {
+    margin-right: 5px;
+  }
+
+  & .wrapper {
+    max-width: 470px;
+  }
+
+  & p {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.45;
+  }
+
+  & .icon-box {
+    text-align: center;
+  }
+
+  & a:link,
+  & a:visited {
+    text-decoration: none;
+    color: $tan;
+    display: inline-block;
+    margin: 0 5px 5px 5px;
+    width: 33%;
+    height: 70px;
+    font-size: 2em;
+
+    @mixin atSmall {
+      width: 70px;
+      margin: 0 5px;
+    }
+  }
+
+  & a:hover,
+  & a:active {
+    color: $mainBrown;
+  }
+
+  & .close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 1.25rem;
+    transform: scaleX(1.2);
+    transform-origin: 100% 0;
+    color: $mainBrown;
+    cursor: pointer;
+
+    &:hover {
+      color: $tan;
+    }
+  }
+}
