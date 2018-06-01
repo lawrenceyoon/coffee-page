@@ -8,6 +8,8 @@
   right: 0;
   opacity: 0;
   visibility: hidden;
+  transform: scale(1.2);
+  transition: all 0.3s ease-out;
 
   & .inner {
     position: absolute;
@@ -80,7 +82,7 @@
     color: $mainBrown;
   }
 
-  & .close {
+  &-close {
     position: absolute;
     top: 15px;
     right: 15px;
@@ -93,5 +95,11 @@
     &:hover {
       color: $tan;
     }
+  }
+
+  &-is-visible {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
   }
 }
