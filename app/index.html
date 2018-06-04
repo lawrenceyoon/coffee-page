@@ -19,6 +19,9 @@
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="./temp/styles/styles.css" />
 
+    <!-- Vendor JS file -->
+    <script src="/temp/scripts/Vendor.js"></script>
+
     <!-- Icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
 
@@ -85,22 +88,22 @@
       <ul>
         <li>
           <figure>
-            <img src="assets/images/coffee1.jpg" alt="Flower coffee" />
+            <img class="lazyload" data-src="assets/images/coffee1.jpg" alt="Flower coffee" />
           </figure>
         </li>
         <li>
           <figure>
-            <img src="assets/images/coffee2.jpg" alt="Slice of cake with coffee" />
+            <img class="lazyload" data-src="assets/images/coffee2.jpg" alt="Slice of cake with coffee" />
           </figure>
         </li>
         <li>
           <figure>
-            <img src="assets/images/coffee3.jpg" alt="Notebook and coffee" />
+            <img class="lazyload" data-src="assets/images/coffee3.jpg" alt="Notebook and coffee" />
           </figure>
         </li>
         <li>
           <figure>
-            <img src="assets/images/coffee4.jpg" alt="Stirring to make cold coffee" />
+            <img class="lazyload" data-src="assets/images/coffee4.jpg" alt="Stirring to make cold coffee" />
           </figure>
         </li>
       </ul>
@@ -108,22 +111,22 @@
       <ul>
         <li>
           <figure>
-            <img src="assets/images/coffee5.jpg" alt="Pouring a cup of coffee" />
+            <img class="lazyload" data-src="assets/images/coffee5.jpg" alt="Pouring a cup of coffee" />
           </figure>
         </li>
         <li>
           <figure>
-            <img src="assets/images/coffee6.jpg" alt="Black regular coffee" />
+            <img class="lazyload" data-src="assets/images/coffee6.jpg" alt="Black regular coffee" />
           </figure>
         </li>
         <li>
           <figure>
-            <img src="assets/images/coffee7.jpg" alt="Waffles and coffee" />
+            <img class="lazyload" data-src="assets/images/coffee7.jpg" alt="Waffles and coffee" />
           </figure>
         </li>
         <li>
           <figure>
-            <img src="assets/images/coffee8.jpg" alt="Coffee in a tray" />
+            <img class="lazyload" data-src="assets/images/coffee8.jpg" alt="Coffee in a tray" />
           </figure>
         </li>
 
@@ -165,7 +168,7 @@
     </section>
 
     <!-- Testimonials (3 columns) -->
-    <section id="testimonials-id" class="testimonials">
+    <section id="testimonials-id" class="testimonials lazyload">
       <div class="page-section" data-matching-link="#testimonials-link">
         <div class="wrapper">
           <h2 class="headline"><i class="far fa-comment icons"></i> Testimonials</h2>
@@ -174,7 +177,7 @@
             <div class="first-span-1-of-3">
               <div class="testimonial-box">
                 <div class="photo">
-                  <img src="./assets/images/person-one.jpg" alt="First person doing testimonial" />
+                  <img class="lazyload" data-src="./assets/images/person-one.jpg" alt="First person doing testimonial" />
                 </div>
                 <h3 class="title">Some guy</h3>
                 <h4 class="subtitle">1 Cup/Day</h4>
@@ -185,7 +188,7 @@
             <div class="second-span-1-of-3">
               <div class="testimonial-box">
                 <div class="photo">
-                  <img src="./assets/images/person-two.jpg" alt="Second person doing testimonial" />
+                  <img class="lazyload" data-src="./assets/images/person-two.jpg" alt="Second person doing testimonial" />
                 </div>
                 <h3 class="title">Some guy's cousin</h3>
                 <h4 class="subtitle">3 Cups/Day</h4>
@@ -196,7 +199,7 @@
             <div class="third-span-1-of-3">
               <div class="testimonial-box last-box">
                 <div class="photo">
-                  <img src="./assets/images/person-three.jpg" alt="Third person doing testimonial" />
+                  <img class="lazyload" data-src="./assets/images/person-three.jpg" alt="Third person doing testimonial" />
                 </div>
                 <h3 class="title">Some guy's brother</h3>
                 <h4 class="subtitle">10 Cups/Day</h4>
@@ -239,6 +242,5 @@
 
     <!-- jQuery, JS Files -->
     <script src="/temp/scripts/App.js"></script>
-
   </body>
 </html>

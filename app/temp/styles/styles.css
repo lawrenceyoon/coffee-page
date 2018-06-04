@@ -785,10 +785,10 @@ img {
   background-color: #ffebcd;
 }
 @media (min-width: 1020px) {
-.testimonials {
-    background: url(/assets/images/coffeebg.jpg) top center no-repeat;
-    background-size: cover
-}
+    .testimonials.lazyloaded {
+      background: url(/assets/images/coffeebg.jpg) top center no-repeat;
+      background-size: cover;
+    }
   }
 .testimonials .page-section {
     padding-bottom: 0;
