@@ -1,6 +1,6 @@
 # Coffee Website Project
 
-This website was made mobile-responsive first, as a lot of network traffic these days are through smartphones. Using modern practices, this project taught me a great deal on how to incorporate modern tools to make a fully functioning site following best practices.
+This website was made mobile-responsive first, as a lot of network traffic these days are through smartphones. Using modern practices, this project taught me a great deal on how to incorporate modern tools to make a fully functioning site following best practices. Clicking "Get in touch" button opens modal with social networking links.
 
 1) Used git and made a branch for each individual section and made sure to update constantly locally and remotely to make sure if anything happened, I need not worry.
 
