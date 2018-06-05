@@ -786,7 +786,7 @@ img {
 }
 @media (min-width: 1020px) {
     .testimonials.lazyloaded {
-      background: url(/assets/images/coffeebg.jpg) top center no-repeat;
+      background: url(../../assets/images/coffeebg.jpg) top center no-repeat;
       background-size: cover;
     }
   }
