@@ -8,6 +8,6 @@ This website was made mobile-responsive first, as a lot of network traffic these
 
 3) Used gulp to automate any changes to my HTML, CSS, and my JS files, that would be compiled to a different folder. As for CSS, helped me use PostCSS to help write clean CSS, with the help of nesting CSS, use variables, and mixins for my media queries (mobile and desktop responsive).
 
-4) Followed best JS practices using Object Oriented Programming (OOP) and using webpack to make sure all my js files were organized. Then used Babel to make sure ES6 was translated to ES5, as ES6 is still fairly new.
+4) Followed best JS practices using Object Oriented Programming (OOP) and using webpack to make sure all my js files were organized. Then used Babel to make sure ES6 was translated to ES5, as ES6 is still fairly new meaning there are still a lot of computers that cannot translate/use ES6.
 
 5) Made sure all images and files were compressed to the smallest files with lazyloading from NPM to make sure mobile users did not have to download/use unnecessary data.
